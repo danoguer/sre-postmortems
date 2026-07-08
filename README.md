@@ -20,9 +20,9 @@ Scenarios are debugged inside Linux VMs (Debian/Ubuntu) using standard system di
 ## 📁 Logged Incidents
 
 ### Systems & Automation Primitives
-* **[Alexandria: The Vanishing Backups](./systems-infrastructure/alexandria-vanishing-backups.md) (Easy)**
+* **[Alexandria: The Vanishing Backups](./cases/alexandria-vanishing-backups.md) (Easy)**
   * *Concepts:* Vixie `cron` execution context, unprivileged execution limits, silent stdout/stderr suppression (`> /dev/null 2>&1`), stale lock-file handling.
-* **[Valladolid: Cleaner Not Cleaning](./systems-infrastructure/valladolid-stale-log-cleaner.md) (Easy)**
+* **[Valladolid: Cleaner Not Cleaning](./cases/valladolid-stale-log-cleaner.md) (Easy)**
   * *Concepts:* `systemd` service management, `find` time-based filters (`-mtime`), shell string-concatenation pitfalls, defensive scripting (`set -e`).
 
 ---
